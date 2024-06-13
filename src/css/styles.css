@@ -1,0 +1,50 @@
+body, html {
+    height: 100%;
+}
+
+footer 
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: goldenrod; 
+}
+
+
+header {
+    /*position: fixed;
+    left: 0;
+    top: 0; */
+    background-color: goldenrod;
+    text-align: center; 
+    width: 100%;
+}
+
+.row1, .row2, .row3 , .row4 {
+    height: 150px;
+}
+
+.homexxx {
+  
+    /* background-image: url("../images/note-book-svgrepo-com.svg"); */
+    background-color: goldenrod; 
+  
+    height: auto;
+    width: auto;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+.home > p, div > h2, div > h4{
+    color:goldenrod;
+    font-style: oblique;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
